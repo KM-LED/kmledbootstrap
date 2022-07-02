@@ -1,0 +1,88 @@
+.bfondo{
+    background-color: rgb(0, 0, 0);
+}
+    
+
+
+
+
+.descargassecu h5 {
+    font-size:20px;
+    color:aqua;
+    
+   
+}
+
+.descargassecu p {
+    font-size:20px;
+}
+
+main h1{
+    font-size: 38px;
+    text-align: center;
+    color: white;
+    margin: 10px;
+    
+
+}
+
+main p{
+    font-size:26px;
+    color:aqua;
+    text-align: center;
+    padding-top: 40px;
+    
+    
+    
+}
+
+button {
+    border: 0;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color:aqua;
+    
+    
+}
+
+.img1{
+    padding: 20px;
+}
+
+.img2{
+    padding: 20px
+    
+}
+
+.img3{
+    padding: 20px
+}
+
+.img4{
+    padding: 20px
+}
+
+.card{
+    background-color:black;
+}
+
+ .btn-primary{
+
+border-radius: 10px;
+background-color: aqua
+
+
+}
+
+.btn-primary p {
+    color: white
+}
+
+.card-title{
+    color:brown;
+    
+}
+
+.textnos{
+    font: size 50px;
+}
