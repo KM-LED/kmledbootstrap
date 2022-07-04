@@ -17,7 +17,7 @@
 
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img class="w-75" src="../assets/img/km Led final chico.jpg" alt="logo"></a>
+            <a class="navbar-brand" href="../index.html"><img class="w-75" src="../assets/img/km Led final chico.jpg" alt="logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -61,35 +61,42 @@
             </div>
         </div>
         
-        <h1 class="text-center my-5">CONTACTO </h1>
-        <form class="row" action="">
-            <div class="col-12 col-md-6 mb-3">
-                <label for="nombre" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="Nombre" placeholder="Ingrese su nombre">
+        <h1 class="text-center my-5 mb-1">CONTACTO </h1>
+        
+        <div class="container-fluid">
+            <form class="row" action="">
+            <div class="row">
+                <div class="col-md">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="Nombre" placeholder="Ingrese su nombre">
+                </div>
+                <div class="col-md">
+                    <label for="apellido" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="Apellido" placeholder="Ingrese su apellido">
+                </div>
+                <div class="col-md">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="text" class="form-control" id="Email" placeholder="Ingrese su email">
+                </div>
             </div>
-
-            <div class="col-12 col-md-6 mb-3">
-                <label for="apellido" class="form-label">Apellido</label>
-                <input type="text" class="form-control" id="Apellido" placeholder="Ingrese su apellido">
-            </div>
-
-            <div class="col-12 col-md-8 mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="text" class="form-control" id="Email" placeholder="Ingrese su email">
-            </div>
-
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
+                <div class="row">
+                    <div class="col-md">
+                        <label for="mensaje" class="form-label">Deje su mensaje</label>
+                        <textarea class="form-control" id="mensaje" rows="3"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="cold-md text-center">
+                         <input class="btn bg-primary w-25 m-2" type="submit" value="Enviar">
+                    </div>
+                </div>
+    
+                    
             
-            <div class="col-12 col-md9 mb-3">
-                <label for="mensaje" class="form-label">Deje su mensaje</label>
-                <textarea class="form-control" id="mensaje" rows="3"></textarea>
-            </div>
+            </form>
+        </div>
 
-            <input class="btn bg-primary w-25 m-2  " type="submit" value="Enviar">
-        </form>
+        
 
         
     </main>
